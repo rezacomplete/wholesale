@@ -1,7 +1,7 @@
 # ANZ wholesale code test
 Test application for ANZ <br/>
-Please run by building the application using Maven first (mvn clean package). <br/>
-Then run using (java -jar target/wholesale-1.jar) <br/>
+Please run by building the application using Maven first (<b>mvn clean package</b>). <br/>
+Then run using (<b>java -jar target/wholesale-1.jar</b>) <br/>
 <b>OR</b> <br/>
 <b>docker build -t wholesale .</b> <br/>
 <b>docker run -p 8080:8080 -t wholesale</b> <br/>
