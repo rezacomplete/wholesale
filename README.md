@@ -2,6 +2,9 @@
 Test application for ANZ <br/>
 Please run by building the application using Maven first (mvn clean package). <br/>
 Then run using (java -jar target/wholesale-1.jar) <br/>
+<b>OR</b> <br/>
+<b>docker build -t wholesale .</b> <br/>
+<b>docker run -p 8080:8080 -t wholesale</b> <br/>
 You can retrieve book information by calling the Rest API like below:<br>
 <b>http://localhost:8080/api/v1/customers/123/accounts</b> <br>
 <b>http://localhost:8080/api/v1/accounts/123456/transactions</b> <br>
